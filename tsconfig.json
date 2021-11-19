@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "sourceMap": false,
+        "declaration": false,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "esModuleInterop": false,
+        "experimentalDecorators": true,
+        "importHelpers": true,
+        "resolveJsonModule": true,
+        "allowSyntheticDefaultImports": true,
+        "target": "es6",
+        "lib": ["es6", "dom"],
+        "types": ["node"]
+    },
+    "include": ["**/*.ts", "src/assets/icons/my-files-icon.tsx"]
+}
